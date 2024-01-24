@@ -1,7 +1,7 @@
 # Incentive Adaptation Analysis
 
 
-## Environment
+## Virutal Environment
 ```shell
 conda env create -f env.yaml
 conda activate incentive
@@ -18,4 +18,9 @@ conda install -c conda-forge r-base r-cairo r-tidyverse r-ggforce r-ggpubr r-lme
 
 - [golden-time-analysis/golden-time.ipynb](golden-time-analysis/golden-time.ipynb)
   - The Golden Time data analysis codes
+
+
+## Note
+All notebooks are assumed to be executed in the Ubuntu environment (because **ray** is fully compatible with the Ubuntu).
+If you do not have any Linux development environment, I strongly recommend to use WSL.
 
